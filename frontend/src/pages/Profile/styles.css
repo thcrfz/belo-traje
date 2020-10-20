@@ -1,0 +1,57 @@
+.top-bar{
+    width: 100%;
+    background: #302C2C;
+    max-width: 1440px;
+    height: 51px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+ 
+}
+.top-bar h1{
+    color: #FAF4F4;
+    float: left;
+    margin-left: 30px;
+    font-size: 25px;
+    width:50%;
+}
+.top-bar span{
+    color: #FAF4F4;
+    padding-left: 20%;
+}
+.profile-container h2{
+    width: 100%;
+    padding-right: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.profile-container ul{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding: 5%;
+    padding-left: 5%;
+    list-style: none;
+}
+.profile-container ul li{
+    padding: 15px;
+    border-radius: 5px;
+    background-color: gainsboro;
+}
+.profile-container ul li .button{
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    height: 30px;
+    width: 20%;
+    line-height: 30px;
+    background-color: goldenrod;
+}
+.profile-container ul li button{
+    margin-left: 24px;
+    border: none;
+}
+
+

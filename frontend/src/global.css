@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font: 400 14px Open-Sans, sans-serif;
+    background: #FCFCFC;
+    -webkit-font-smoothing: antialiased;
+    margin: 0 auto;
+}
+
+input, button, textarea{
+    font: 400 18px Open-Sans, sans-serif;
+}
+
+button{
+    cursor: pointer;
+}
+
+form input{
+    width: 100%;
+    height: 60px;
+    color:black;
+    border: 1px solid #dcdce6;
+    border-radius: 8px;
+    padding: 0 24px;
+}
+h3{
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+h3:before, h3:after {
+  background-color: black;
+  content: '\a0';
+  flex-grow: 1;
+  height: 1px;
+
+  position: relative;
+  top: 0.5em;
+}
+h3:before {
+  margin-right:10px;
+}
+h3:after {
+  margin-left:10px;
+}
+.button{
+    width: 100%;
+    height: 60px;
+    background: #e02041;
+    border: 0;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 16px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    transition: 0.2s;
+}
+
+.button:hover{
+    filter: brightness(90%);
+}
+
+/* The navigation menu */
+.nave-bar {
+    overflow: hidden;
+    background-color: #333;
+}
+  
+  /* Navigation links */
+  .nave-bar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The subnavigation menu */
+  .sub-nave {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Subnav button */
+  .sub-nave .subnavebnt {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  /* Add a red background color to navigation links on hover */
+  .nave-bar a:hover, .sub-nave:hover .subnavebnt {
+    background-color: #e02041;
+  }
+  
+  /* Style the subnav content - positioned absolute */
+  .sub-naver-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: #e02041;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  /* Style the subnav links */
+  .sub-naver-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Add a grey background color on hover */
+  .sub-naver-content a:hover {
+    background-color: #eee;
+    color: black;
+  }
+  
+  /* When you move the mouse over the subnav container, open the subnav content */
+  .sub-nave:hover .sub-naver-content {
+    display: block;
+  }
+
+  :root {
+    --cos30: 0.866;
+    --squareWidth: 1;
+    --hexWidth: 1.73205; 
+    --hexHeight: 2; 
+    --colWidth: 1.36603;
+    --rowHeight: 4.73205;
+    --hexOverCol: 126.79%;
+    --hexOffset: 13.397%;
+    --legsSquare: 3.73205;
+    --legsOverCol : 273.204%;
+    --legsOffset: 86.602%;
+  }
+
+
+.card{
+    position: relative;
+    width: 50%;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 8px;
+    margin-left: 450px;
+    height: 460px;
+    align-items: center;
+    border-radius: 8px;
+    background: #E1DDDD;
+    box-shadow: 0 0 5px;
+}
+.card:hover{
+  background: linear-gradient( #A19E9E 0%,#E1DDDD 100%);
+}
+.card h1{
+  margin-top: 40px;
+  font-weight: 700 18px;
+  
+}
+.card h2{
+  font-weight: 400 10px;
+  font-size: 15px;
+}
+.card h1,h2{
+  text-align: center;
+}
+
+.shopping-list{
+  margin-top: 20px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin: 0 auto;
+}
+
+.shop-button{
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
+  background:#e02041;
+  color: black;
+  width:30%;
+  border:1px solid #A19E9E;
+  box-shadow:0 2px 3px 0px rgba(0,0,0,0.25);
+  border-radius:3px;
+  text-decoration: none;
+  justify-content: space-between;
+  text-align: center;
+  font-weight: 700;
+}
+
+.shopping-list:hover .shop-button{
+  filter:blur(1px);
+  opacity:.9;
+  transform: scale(.98);
+  box-shadow:none;
+}
+
+.shopping-list:hover .shop-button:hover{
+  transform:scale(1);
+  filter:blur(0px);
+  opacity:1;
+  box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
+}
+
+.back-link {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  margin-left: 40px;
+  color: #E02041;
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: opacity 0.2s;
+}
+.back-link  svg{
+  margin-right: 8px;
+}
+.back-link:hover{
+  opacity: 0.8;
+}

@@ -1,0 +1,40 @@
+.img-slide{
+    margin: 0 auto;
+    margin-top: 5%;
+    height: 250px;
+    pointer-events: none;
+    transition-property: transform;
+    transition-duration: .3s;
+}
+.card:hover{
+    z-index: 10;
+  }
+.card:hover img{
+    transform: rotate(0) scale(1.4) translateZ(0);
+    -webkit-filter: drop-shadow(0 20px 20px  rgba(0, 0, 0, 0.70));
+    filter: drop-shadow(0 20px 20px rgba(0, 0, 0, 0.70));
+}
+  
+
+.slick-track {
+    margin:auto;
+}
+.slick-prev, .slick-next{
+    margin: 0 auto;
+    z-index: 9999;
+}
+.slick-prev{
+    left: 220px;
+}
+.slick-next{
+    right: 350px;
+}
+.slick-prev:before {
+   color: black;
+    font-size: 100px;
+  }
+  
+  .slick-next:before {
+    color: black;
+    font-size: 100px;
+}

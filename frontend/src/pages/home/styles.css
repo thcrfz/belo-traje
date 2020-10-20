@@ -1,0 +1,249 @@
+.top-bar{
+    width: 100%;
+    background: #302C2C;
+    max-width: 1440px;
+    height: 51px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+ 
+}
+.top-bar h1{
+    color: #FAF4F4;
+    float: left;
+    margin-left: 30px;
+    font-size: 25px;
+    width:50%;
+}
+.top-bar form{
+    display: flex;
+    width: 50%;
+    padding: 0 50px;
+}
+.top-bar form .input-group{
+    height: 60px;
+    width: 35%;
+}
+.top-bar form .input-group input{
+    margin-top: 15px;
+    width: 80%;
+    height: 30px;
+    font-size: 15px;
+    color: #302C2C;
+}
+.top-bar form .input-group input + input {
+    margin-left: 8px;
+}
+.top-bar form .button{
+    margin-top: 15px;
+    height: 30px;
+    width: 30%;
+    line-height: 30px;
+}
+
+
+.userName{
+    width: 100%;
+    max-width: 1440px;
+    height: 30px;
+    background: #F2EDED;
+    border-bottom: 0.5px solid #51B0E5;
+}
+.userName h1{
+    font-size: 14px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 5px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.tool-bar-container{
+    width: 100%;
+    max-width: 1440px;
+    height: 48px;
+    display: flex;
+    background-color: #333;
+    position: relative;
+    margin: 0 auto;
+}
+.tool-bar-container .nave-bar{
+    width: 50%
+}
+.tool-bar-container .search{
+    width: 50%;
+}
+.tool-bar-container .search form{
+    margin-top: 8px;
+    float: right;
+}
+
+.tool-bar-container .search form input{
+    width: 50%;
+    height: 30px;
+    font: 500;
+    font-size: 15px;
+    color: #302C2C;
+    position: relative;
+    margin: 0 auto;
+}
+.tool-bar-container .search form a{
+    margin: 0 auto;
+    align-items: center;
+    margin-right: 50px;
+    color: #FCFCFC;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: opacity 0.2s;
+}
+.tool-bar-container .search form a:hover{
+    opacity: 0.8;
+    color: #e02041;
+}
+.tool-bar-container .search form a svg{
+    margin-right: 8px;
+}
+.prducts-container{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 500px;
+    align-items: center;
+}
+
+.marcas-container{
+    width: 100%;
+    max-width: 1440px;
+    height: 250px;
+    align-items: center;
+    display: grid;
+}
+
+
+.marcas-grid{
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.marca-card{
+    box-shadow: 0px 0px 2px;
+    margin-right: 28px;
+    background: #FCFCFC;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+
+.marca-card:hover{
+    z-index: 10;
+    transform: scale(1.4) ;
+    
+}
+
+.marca-card img{
+    height: 80px;
+    margin: 0 auto;
+}
+
+.offerts-container{
+    width: 100%;
+    max-width: 1440px;
+    height: 1000px;
+    align-items: center;
+    margin: 0 auto;
+}
+.offerts-grid{
+    display: flex;
+    padding-left: 8px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.offerts-card{
+    box-shadow: 0px 0px 2px;
+    margin-right: 28px;
+    height: 300px;
+    width: 300px;
+    background: #FCFCFC;
+
+}
+.prices {
+    margin: 0 auto;
+    padding: 5px;
+    width: 100%;
+    display: inline-block;
+    justify-content: space-between;
+}
+.prices p{
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.prices a{
+    margin-left: 8px;
+    margin-right: 8px;
+    text-decoration: none;
+    color: #302C2C;
+}
+.prices a svg{
+    margin-right: 2px;
+}
+.offerts-container h5{
+    color: #F1982E;
+    font: bold;
+}
+
+.novImg{
+    height: 150px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.contacts-container{
+    width: 100%;
+    max-width: 1440px;
+    height: 300px;
+    background: #302C2C;
+    color: white;
+}
+.contacts-container ul{
+    display: flex;
+    padding: 20px;
+    padding-left: 50px;
+    list-style: none;
+}
+.contacts-container h6{
+    font-size: 18px;
+}
+.contacts-container li{
+    margin-left: 150px;
+
+}
+
+.contacts-container ul li p{
+    text-decoration: none;
+    color: #FCFCFC;
+    padding-top: 20px;
+    transition: opacity 0.2s;
+}
+
+.contacts-container li p:hover{
+    opacity: 0.8;
+}
+
+.contacts-container ul li a{
+    text-decoration: none;
+}
+.footer{
+    width: 100%;
+    max-width: 1440px;
+    height: 20px;
+    background: rgb(117, 117, 117);
+}
+.bottom-bar{
+    padding-left: 600px;
+    color: white;
+}
+
+
